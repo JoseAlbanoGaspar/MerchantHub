@@ -88,16 +88,7 @@ export default function LoginPage() {
         </Link>
       </p>
 
-      {/* Demo credentials hint */}
-      <div className="rounded-lg border border-dashed border-zinc-200 bg-zinc-50 p-4">
-        <p className="text-xs font-semibold text-zinc-500 mb-2 uppercase tracking-wider">Demo Credentials</p>
-        <div className="space-y-1 text-xs text-zinc-500 font-mono">
-          <p>mario@bistromario.com</p>
-          <p>sofia@seoulkitchen.com</p>
-          <p>james@jerkhouse.com</p>
-          <p className="pt-1 text-zinc-400">Password: Seed@1234</p>
-        </div>
-      </div>
+      
     </div>
   );
 }
